@@ -27,7 +27,13 @@ function Stories() {
 
   return (
     <div>
-      <h1>Hellow</h1>
+      {suggestions.map((profile) =>(
+        <Story
+          key={profile.id}
+          img={profile.avatar}
+          username={profile.username}
+        />
+      ))}
     </div>
   )
 }
