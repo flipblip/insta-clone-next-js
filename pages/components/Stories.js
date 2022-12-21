@@ -27,7 +27,7 @@ function Stories() {
     }, []);
 
   return (
-    <div className='flex w-screen space-x-2 p-6 bg-white mt-8 border-gray-20
+    <div className='flex space-x-2 p-6 bg-white mt-8 border-gray-20
     border rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black'>
       {suggestions.map((profile) =>(
         <Story
