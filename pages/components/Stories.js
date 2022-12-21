@@ -2,6 +2,7 @@
 // import { uuid } from 'uuidv4';
 import { v4 as uuid} from 'uuid';
 import { useEffect, useState } from 'react';
+import Story from './Story';
 
 const { faker } = require('@faker-js/faker')
 // const { uuid } = require('uuidv4');
@@ -11,7 +12,7 @@ function Stories() {
   const [suggestions, setSuggestions] = useState([]);
 
     useEffect(() =>{
-      const suggestions = [...Array(20)].map((_, i) => ({
+      const suggestions = [...Array(10)].map((_, i) => ({
         userId: faker.datatype.uuid(),
         username: faker.internet.userName(),
         email: faker.internet.email(),
@@ -26,7 +27,7 @@ function Stories() {
     }, []);
 
   return (
-    <div>
+    <div className='flex w-screen space-x-2 p-6 bg-white mt-8 border-gray-200 border rounded-sm overflow-x-scroll'>
       {suggestions.map((profile) =>(
         <Story
           key={profile.id}
