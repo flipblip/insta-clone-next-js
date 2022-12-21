@@ -1,9 +1,9 @@
-import faker from '@faker-js/faker';
+// import faker from '@faker-js/faker';
 // import { uuid } from 'uuidv4';
-import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuid} from 'uuid';
 import { useEffect, useState } from 'react';
 
-// const faker = require('@faker-js/faker')
+const { faker } = require('@faker-js/faker')
 // const { uuid } = require('uuidv4');
 // const { v4: uuidv4} = require('uuid');
 
@@ -12,7 +12,7 @@ function Stories() {
 
     useEffect(() =>{
       const suggestions = [...Array(20)].map((_, i) => ({
-        userId: faker.datatype.uuidv4(),
+        userId: faker.datatype.uuid(),
         username: faker.internet.userName(),
         email: faker.internet.email(),
         avatar: faker.image.avatar(),
