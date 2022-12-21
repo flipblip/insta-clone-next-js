@@ -12,7 +12,7 @@ function Stories() {
   const [suggestions, setSuggestions] = useState([]);
 
     useEffect(() =>{
-      const suggestions = [...Array(50)].map((_, i) => ({
+      const suggestions = [...Array(25)].map((_, i) => ({
         userId: faker.datatype.uuid(),
         username: faker.internet.userName(),
         email: faker.internet.email(),
