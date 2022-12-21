@@ -4,16 +4,16 @@ import Post from './Post'
 const posts =[
     {
         id: '123',
-        username: 'Wicky',
-        userImg: 'https://links.papareact.com/3ke',
-        img: 'https://links.papareact.com/3ke',
+        username: 'Lil Mayo',
+        userImg: 'https://imageio.forbes.com/specials-images/imageserve/5d420e7c090f4300070e36ff/Alex-Martyn-created-the-rap-loving-Lil-Mayo-brand-on-Instagram-after-converting-his/960x0.jpg?format=jpg&width=960',
+        img: 'https://imageio.forbes.com/specials-images/imageserve/5d420e7c090f4300070e36ff/Alex-Martyn-created-the-rap-loving-Lil-Mayo-brand-on-Instagram-after-converting-his/960x0.jpg?format=jpg&width=960',
         caption: "SEE YOU IN 2023",
     },
     {
         id: '123',
-        username: 'Wicky',
-        userImg: 'https://links.papareact.com/3ke',
-        img: 'https://links.papareact.com/3ke',
+        username: 'Lil Mayo',
+        userImg: 'https://imageio.forbes.com/specials-images/imageserve/5d420e7c090f4300070e36ff/Alex-Martyn-created-the-rap-loving-Lil-Mayo-brand-on-Instagram-after-converting-his/960x0.jpg?format=jpg&width=960',
+        img: 'https://imageio.forbes.com/specials-images/imageserve/5d420e7c090f4300070e36ff/Alex-Martyn-created-the-rap-loving-Lil-Mayo-brand-on-Instagram-after-converting-his/960x0.jpg?format=jpg&width=960',
         caption: "SEE YOU IN 2023",
     },
 ]
